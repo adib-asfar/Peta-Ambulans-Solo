@@ -19,7 +19,7 @@ var map = new mapboxgl.Map({
 container: 'map', // container id
 style: 'mapbox://styles/mapbox/streets-v11',
 center: [110.821,-7.559], // starting position
-zoom: 10,// starting zoom
+zoom: 3 // starting zoom
 });
  
 // Add geolocate control to the map.
